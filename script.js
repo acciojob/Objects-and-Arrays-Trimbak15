@@ -5,10 +5,10 @@ const person = {
   age: 80,
 };
 
-// Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
-const team = players;
-let team1 = [players];
+// Write your code here, make sure the name of variables is exactly same as mentioned in the problem statemen team = players;
 
+const team = players;
+const team1 = players.slice();
 const cap1 = person;
 
 window.players = players;
